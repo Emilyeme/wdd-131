@@ -7,7 +7,7 @@
   <meta name="description"
     content="WDD 131 - Dynamic Web Fundamentals. Emily Emerson Cotilda N . Home page for web fundamentals, navigation, and practice with HTML, CSS, and JS.">
   <meta name="author" content="Emily Emerson Cotilda N ">
-  <title>WDD 131 - Dynamic Web Fundamentals - Emily Emerson Cotilda N </title>
+  <title>WDD 131: Dynamic Web Fundamentals - Emily Emerson Cotilda N</title>
   <link href="styles/base.css" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -17,39 +17,56 @@
 
 <body>
   <header>
-    <span id="course-title">WDD 131 - Dynamic Web Fundamentals </span>
+    <span id="course-title">WDD 131: Dynamic Web Fundamentals - <span class="highlight">Emily Emerson Cotilda N</span></span>
     <nav>
-      <a href="https://www.linkedin.com/in/emily-emerson-27a28729b/">LinkedIn</a>
-      <a href="https://byupw.instructure.com/">Canvas</a>
-      <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/alma/37?lang=eng">Scripture</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">Canvas</a>
+      <a href="#">Scripture</a>
       <a href="#">Final Project</a>
     </nav>
   </header>
 
   <main>
-    <h1>Emily Emerson Cotilda N </h1>
-    <section class="card">
-      <h2>About Me</h2>
-      <img src="images/your.jpeg" alt="Your Photo" width="200">
-      <p>My name is Emily Emerson Cotilda N . I am a BYU student pursuing Software Development. I like learning new
+    <!-- Left Column -->
+    <section class="card about">
+      <h2 class="card-header">About Me</h2>
+     <div class="les">
+        <img src="images/your.jpeg" alt="Photo of Emily" width="150">  
+        <p>My name is Emily Emerson Cotilda N . I am a BYU student pursuing Software Development. I like learning new
         languages and so far i can speak three different languages that includes German, Swahili and English.
-        My greatess dream is to become a successful and powerful lady in this world . </p>
+        My greatess dream is to become a successful and powerful lady in the tech world </p>
+        </div>
+
+           <h2 class="row">Kampala,Uganda</h2>
+      <div class="about-row">
+        <div>
+        <img src="images/uganda-flag.png" alt="Official Flag of Uganda" width="100">
+        <p><em>Official Flag of Uganda</em></p>
+        </div>
+        <p>Uganda is a country found in the eastern part of Africa.It is called the pearl of Africa because of its beautiful sceneries.
+        It is a home to the biggest lake in Africa called Lake Victoria and also the source of the longest river in the world called River Nile.  
+      </p>
+     </div>     
+
+    
     </section>
-    <section class="card">
-      <h2>My Goals</h2>
-      <img src="images/goal.jpeg" alt="Goals Image" width="200">
-      <p>Fremer Tours and Travel is your trusted companion for unforgettable journeys across Uganda and beyond. We
-        specialize in affordable, guided travel packages, customized to suit every kind of traveler whether you're
-        seeking wildlife safaris, cultural tours, or peaceful getaways. Our expert guides ensure you experience the best
-        of each destination, from the bustling streets of Kampala to the serene shores of Lake Victoria. With us, you
-        can relax and enjoy your adventure, knowing every detail is taken care of. Join us at Fremer Tours and Travel,
-        where we plan, and you enjoy! Whether you're a solo traveler, a couple, or a family, we have the perfect package
-        for you. Explore our offerings and let us help you create memories that will last a lifetime.</p>
-    </section>
+
+    <!-- Right Column -->
+    <aside class="card resources">
+      <h2 class="card-header">Web Dev Resources</h2>
+      <ul>
+        <li><a href="#">Dev.to Community</a></li>
+        <li><a href="#">Smashing Magazine</a></li>
+        <li><a href="#">CSS Tricks</a></li>
+        <li><a href="#">W3 Schools</a></li>
+        <li><a href="#">Udemy</a></li>
+        <li><a href="#">Image Placeholder</a></li>
+      </ul>
+    </aside>
   </main>
 
   <footer>
-    <p>© <span id="currentyear"></span> Emily Emerson Cotilda N , Uganda</p>
+    <p>© <span id="currentyear"></span> 🌸 Emily Emerson Cotilda N 🌸 Uganda</p>
     <p id="lastModified"></p>
   </footer>
 </body>
